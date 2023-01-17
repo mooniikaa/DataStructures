@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Panel {
+public class Examples {
         public static void main(String[] agrs) {
             Scanner input = new Scanner(System.in);
             Stack songs = new Stack(5);
