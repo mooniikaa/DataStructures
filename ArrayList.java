@@ -1,3 +1,4 @@
+import java.util.Arrays;
 public class ArrayList<E> {
     private static final int smallSize = 4;
     private Object[] elements;
