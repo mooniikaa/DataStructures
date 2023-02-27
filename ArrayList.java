@@ -17,7 +17,7 @@ public class ArrayList<E> {
         return true;
     }
     public boolean add(int index, E element){
-        if (index < 0 || index < this.size){
+        if (index < 0 || index > this.size){
             return false;
         }
         rightMove(index);
